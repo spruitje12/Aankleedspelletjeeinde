@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#rodeloperachtergrond{
+background-image: url(img/rodeloper.png);
+display: none;
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    border: 8px solid palevioletred;
+    border-radius: 1em;
+    background-color: palevioletred;
+    padding: 0.5em;
+    margin-left: 400px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 8px solid palevioletred;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: palevioletred;
+    border-radius: 1em;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.opnieuw{
+    border: 8px solid palevioletred;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: palevioletred;
+    border-radius: 1em;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.volgende{
+    border: 8px solid palevioletred;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: palevioletred;
+    border-radius: 1em;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: absolute;
+   left: 100px;
+   bottom: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    margin-top: 5em;
+}
+
+.aangekleed{
+    margin-left: 200px;
+}
+
+.poplicht{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    height: 850px;
+}
+
+.kleding{
+    display: flex;
+    justify-content: center;
+}
+
+.kleding img{
+    width: 200px;
+    padding: 30px;
+    height: 200px;
+}
+
+.onderkleding{
+    display: flex;
+    justify-content: center;
+}
+
+.onderkleding img{
+    width: 175px;
+    padding: 30px;
+    height: 175px;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.tweerok{
+   position: absolute;
+   margin-top: -585px;
+}
+
+.spijkertwee{
+    position: absolute;
+    margin-top: -570px;
+}
+
+#rok{
+    position: absolute;
+    top: 100px;
+    left: 135px;
+}
+
+#kortebroek{
+    position: absolute;
+    top: 350px;
+    left: 135px;
+}
+
+#blauwrok{
+    position: absolute;
+    top: 600px;
+    left: 135px;
+}
+
+.blauwrokjetwee{
+    position: relative;
+    margin-top: -590px;
+    max-height: 150px;
+    margin-left: 2px;
+}
+
+#shirt{
+    position: absolute;
+    top: 100px;
+    right: 45px;
+}
+
+#top{
+    position: absolute;
+    top: 370px;
+    right: 45px;
+}
+
+#topwit{
+    position: absolute;
+    top: 600px;
+    right: 70px;
+    width: 150px;
+    height: 150px;
+}
+
+.topTwee{
+    position: relative;
+    margin-top: -715px;
+    max-width: 110px;
+    max-height: 120px;
+}
+
+.kleurschoen{
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 13px;
+}
+
+#gympen{
+    width: 125px;
+    position: absolute;
+    top: 240px;
+    left: 435px;
+}
+
+.wittegympen{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 13px;
+}
+
+#gymwit{
+    width: 100px;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+
+.shirttwee{
+    position: absolute;
+    margin-top: -770px;
+}
+
+.truitjetwee{
+    position: absolute;
+    margin-top: -775px;
+}
+
+.bruinhaartwee{
+    position: absolute;
+    margin-top: -890px;
+    margin-right: 17px;
+}
+
+#haarbruin{
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    right: 320px;
+}
+
+.rozehaartwee{
+    position: absolute;
+    margin-top: -875px;
+    margin-right: 17px;
+}
+
+#haarroze{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top:380px;
+    right: 330px;
+}
+
+#hartjes{
+    margin-top: -712px;
+    width: 157px;
+    height: 140px;
+}
+
+#hartjes1{
+    width: 157px;
+    height: 140px;
+
+}
+
+#kortbroekje{
+    width: 168px;
+    height: 150px;
+}
+
+#kortbroekje1{
+    position: absolute;
+    top: 860px;
+    width: 168px;
+    height: 150px;
+}
+
+#spijkerrokken{
+    width: 150px;
+    height: 150px;
+}
+
+#spijkerrokken1{
+    position: absolute;
+    top: 860px;
+    width: 150px;
+    height: 150px;
+}
+
+#bruinekrul{
+    width: 183px;
+    height: 228px;
+}
+
+#bruinekrul1{
+    position: absolute;
+    top: 860px;
+    width: 183px;
+    height: 228px;
+}
+
+#rozeharen{
+    width: 160px;
+    height: 275px;
+}
+
+#rozeharen1{
+    position: absolute;
+    top: 855px;
+    width: 160px;
+    height: 275px;
+}
+
+#paarstopje{
+    margin-top: -720px;
+    width: 233px;
+    height: 210px;
+}
+
+#paarstopje1{
+    width: 233px;
+    height: 210px;
+}
+
+#laarzen{
+    width: 110px;
+    height: 145px;
+}
+
+#laarzen1{
+    position: absolute;
+    top: 860px;
+    width: 110px;
+    height: 145px;
+}
+
+#schoenen{
+    width: 105px;
+    height: 150px;
+}
+
+#schoenen1{
+    width: 105px;
+    height: 150px;
+    position: absolute;
+    top: 860px;
+}
+
+.cijfer{
+   position: absolute;
+   top: 700px;
+   right: 100px;
+}
+
+p{
+    font-size: 50px;
+    position: absolute;
+    top: 760px;
+    right: 450px;
+}
+
+.opnieuw{
+    position: absolute;
+    top: 770px;
+    right: 104px;
+}
+
+.volgende{
+    margin-left: 1200px;
+}
+
+
+#eerstepagina{
+    background-color: #e0d4cc;
+    background-image: url(img/achtergrond.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#klaar{
+    position: absolute;
+    top: 700px;
+    right: 580px;
+    padding: 20px;
+}
+
+#blauw1{
+    position: relative;
+    top: -55px;
+    max-height: 150px;
+    margin-left: 2px;
+}
+
+#wittop1{
+    position: relative;
+    top: -55px;
+    max-height: 120px;
+}
